@@ -33,33 +33,6 @@
 // // отработает сложение
 
 
-// Операторы 
-console.log('arr'+"-object");
-
-// incriment dicriment
-let incr=10;
-let decr=10;
-
-// ++incr; 
-// --decr;
-
-console.log(++incr);
- 
-console.log(--decr);
-
-
-console.log(5%2);
-
-
-console.log(2-2=='0');
-
-
-const isChecked=true;
-const isClose=true;
-console.log(isChecked && isClose);
-
-
-
 
 
 
