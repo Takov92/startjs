@@ -4,18 +4,7 @@ const numberOfFilms=prompt('Сколько фильмов вы уже посмо
 
 
 
-
-
-//        personalMovieDB.movies[a] = b;
-//        personalMovieDB.movies[c] = d;
-
-//        console.log(personalMovieDB);
-// const a=prompt('Один из последних фильмов?',''),
-//       b=prompt('На сколько оценете?',''), 
-//       c=prompt('Один из последних фильмов?',''),
-//       d=prompt('На сколько оценете?','');
-
-const personalMovieDB= {
+ const personalMovieDB= {
     count:numberOfFilms,
     movies:{},
     actors:{},
@@ -23,14 +12,22 @@ const personalMovieDB= {
     privat:false
 };
 
+// ||
 
-for(let i=1; i<=4; i++){
+for (let i=1; i<2; i++){
 
-    if(i===1){
-        let a=prompt('Один из последних фильмов?','');
-        }else if('a'==0){
-            prompt('Один из последних фильмов?','');
-            }
+        let a=prompt('Один из последних фильмов?',''),
+            b=prompt('На сколько оценете?','');
+    if(a !=null && b !=null && a!='' && b!='' && a.length<50 ){
+    personalMovieDB.movies[a] = b;
+    console.log('done');
+ 
+     }
 
-            console.log('a');
+
+
+            
+        
 }
+
+
