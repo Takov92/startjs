@@ -1,12 +1,12 @@
 'use strict';
 
 
-let number=5;
-let myName='illia';
-const leftBorderWidth=1;
-let und;
+// let number=5;
+// let myName='illia';
+// const leftBorderWidth=1;
+// let und;
 
-console.log(number+myName);
+// console.log(number+myName);
 
 
 // Простые типы данных 
@@ -37,19 +37,19 @@ console.log(number+myName);
 // Ошибки
 
 
-const obj={
-    name:'Jhon',
-    age:25,
-    isMarrid:false
+// const obj={
+//     name:'Jhon',
+//     age:25,
+//     isMarrid:false
 
-};
+// };
 
-console.log(obj.name);выводит все правильно 
-console.log(obj[name]); выводит ошибку
-console.log(obj['name']); выводит все правильно 
+// console.log(obj.name);выводит все правильно 
+// console.log(obj[name]); выводит ошибку
+// console.log(obj['name']); выводит все правильно 
 
-let arr=['plump.png', 'orange.jpg', 6 ,'apple.bmp', {}, []];
-console.log(arr[1]);
+// let arr=['plump.png', 'orange.jpg', 6 ,'apple.bmp', {}, []];
+// console.log(arr[1]);
 
 // Отличие массива от объекта в том, что массив
 // имеет значния которые расположено по порядку,а
